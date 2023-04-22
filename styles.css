@@ -176,11 +176,38 @@ h1 {
     color : rgb(180, 23, 23);
 }
 
-.button {
     position: relative;
-    background-color: #2dd4d4;
     top : 20px ;
     font-size: 25px;
+
+
+.button {
+  background: #39c5f0;
+  background-image: -webkit-linear-gradient(top, #39c5f0, #098399);
+  background-image: -moz-linear-gradient(top, #39c5f0, #098399);
+  background-image: -ms-linear-gradient(top, #39c5f0, #098399);
+  background-image: -o-linear-gradient(top, #39c5f0, #098399);
+  background-image: linear-gradient(to bottom, #39c5f0, #098399);
+    position: relative;
+    top : 20px ;
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 21px;
+  padding: 6px 17px 8px 16px;
+  text-decoration: none;
+}
+
+.button:hover {
+  background: #7dcff5;
+  background-image: -webkit-linear-gradient(top, #7dcff5, #0b8fdb);
+  background-image: -moz-linear-gradient(top, #7dcff5, #0b8fdb);
+  background-image: -ms-linear-gradient(top, #7dcff5, #0b8fdb);
+  background-image: -o-linear-gradient(top, #7dcff5, #0b8fdb);
+  background-image: linear-gradient(to bottom, #7dcff5, #0b8fdb);
+  text-decoration: none;
 }
 
 .juju {
